@@ -3716,12 +3716,12 @@ abstract contract ERC20Burnable is Context, ERC20 {
     }
 }
 
-// File: Recehan.sol
+// File: TokoReceh.sol
 
 pragma solidity ^0.8.9;
 
 contract Recehan is ERC20, ERC20Burnable, ERC20Snapshot, Ownable, Pausable, ERC20Permit, ERC20Votes, ERC20FlashMint {
-    constructor() ERC20("Recehan", "RECEH") ERC20Permit("Recehan") {
+    constructor() ERC20("TokoReceh.com", "TRc") ERC20Permit("TokoReceh.com") {
         _mint(msg.sender, 100000000 * 10 ** decimals());
     }
 
